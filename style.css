@@ -1,11 +1,34 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  color: red;
-  background-image: url(linedpaper.png);
+  background-image: url(graph-paper.png);
   background-repeat: repeat;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+h1 {
+  color: red;
+  /*this is a random comment*/
+}
+h4 {
+	color: green;
+	font-size: 35px;
+	border-bottom: solid;
+	border-bottom-width: 2px;
+}
+#Summary{
+	color: orange;
+	text-align: center;
+	text-shadow: 20px;
+}
+.unicorns{
+	color: purple;
+}
+img{
+	width: 300px;
+	border-style: solid;
+	border-color: blue;
+	border-width: 24px;
 }
